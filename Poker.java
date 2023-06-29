@@ -101,7 +101,7 @@ import java.util.Scanner;
 
 public class Poker {
     public static void main(String [] args) {
-        System.out.println("Testing");
+        System.out.println("Testing push");
 
         /*
          * Importing the .txt file with the data
@@ -242,9 +242,9 @@ public class Poker {
          * Exporting inputs[][] and outputs[][] as .csv files
          */
         String filename1 = "input_validation_data.csv";
-        exportToCSV(inputs, filename1);
+        //exportToCSV(inputs, filename1);
         String filename2 = "output_validation_data.csv";
-        exportToCSV(outputs, filename2);
+        //exportToCSV(outputs, filename2);
 
     }
 
