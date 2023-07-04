@@ -75,7 +75,7 @@ import java.util.Scanner;
  *          If there are not five community cards (as in most cases), the lack of community card is encoded as all zeros
  *      The number of rows is the number of inputs in the training set. Each row has 367 numbers.
  * 
- * The second .csv file represents the outputs ojf the neural network. The outputs are formatted as a 2-D array as follows:
+ * The second .csv file represents the outputs of the neural network. The outputs are formatted as a 2-D array as follows:
  *      Each row represents the action taken by Pluribus with the inputs corresponding to the row of the same index in the inputs
  *      Each row is a one-hot vector with four places.
  *          [1, 0, 0, 0] represents folding
