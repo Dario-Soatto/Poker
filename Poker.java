@@ -106,7 +106,7 @@ public class Poker {
         /*
          * Importing the .txt file with the data
          */
-        String filePath = "/Users/dariosoatto/Documents/APCSInClass/Review/pluribus_118.txt";
+        String filePath = "/Users/dariosoatto/Documents/Programming/Poker Project/Poker/pluribus_30.txt";
         File file = new File(filePath);
 
         /*
@@ -241,10 +241,10 @@ public class Poker {
         /*
          * Exporting inputs[][] and outputs[][] as .csv files
          */
-        String filename1 = "input_validation_data.csv";
-        //exportToCSV(inputs, filename1);
-        String filename2 = "output_validation_data.csv";
-        //exportToCSV(outputs, filename2);
+        String filename1 = "input_data.csv";
+        exportToCSV(inputs, filename1);
+        String filename2 = "output_data.csv";
+        exportToCSV(outputs, filename2);
 
     }
 
